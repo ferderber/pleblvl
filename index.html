@@ -11,21 +11,13 @@
 </head>
 <body>
   <h1>new</h1>
-  <core-ajax url="//pleblvl.com/json"
-  handleAs="json"></core-ajax>
+  <core-header-panel>
 
-  <script>
-  // Wait for 'polymer-ready'. Ensures the element is upgraded.
-  window.addEventListener('polymer-ready', function(e) {
-    var ajax = document.querySelector('core-ajax');
+    <core-toolbar>
+    </core-toolbar>
+test
+    <!-- main page content will go here -->
 
-    // Respond to events it fires.
-    ajax.addEventListener('core-response', function(e) {
-      console.log(this.response);
-    });
-
-    ajax.go(); // Call its API methods.
-  });
-  </script>
+  </core-header-panel>
 </body>
 </html>
