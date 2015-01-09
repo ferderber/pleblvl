@@ -225,6 +225,7 @@ main {
 
 main {
   margin: 0 auto;
+  width: 100%;
   /* Height of the header */
   padding: 60px 16px 16px 16px;
   min-height: 100%;
@@ -310,9 +311,9 @@ main {
   }
 
   main {
-    max-width: 864px;
+    //max-width: 864px;
     padding-top: 0;
-    min-height: initial;
+    //min-height: initial;
   }
 
   body {
